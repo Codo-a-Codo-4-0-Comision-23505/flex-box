@@ -1,0 +1,27 @@
+
+body > i.fa-solid.fa-user {
+    /* animation: <name> <duration> <timing-function> <delay>
+    <iteration-count> <direction> <fill-mode> <play-state> */
+    animation: changeColor 5s linear 0.5s 4 normal forwards running;
+}
+
+body > p {
+    animation: changeColor 5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s 4 normal forwards running;
+}
+
+@keyframes changeColor {
+    from {
+        background-color: red;
+        opacity: 100%;
+    }
+    to {
+        background-color: yellow;
+        opacity: 10%;
+    }
+}
+
+/*
+    {
+    transition: all 5.2s ease-in;
+    transform: rotate(180deg) scale(2,2);
+}*/

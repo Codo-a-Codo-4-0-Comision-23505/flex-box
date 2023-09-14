@@ -1,0 +1,49 @@
+
+
+/* Extra small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+    .h1copado {
+       /* background: white;
+        background-color: red ;*/
+        display: none;
+    }
+
+    .container {
+        background-color: chocolate;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}
+
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+    .h1copado {
+        background: black;
+        background-color: green ;
+    }
+
+    .container {
+        background-color: chocolate;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+    .h1copado {
+        color:aqua;
+        background-color:brown ;
+        width: 50vw;
+    }
+
+    .container {
+        background-color: chocolate;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
